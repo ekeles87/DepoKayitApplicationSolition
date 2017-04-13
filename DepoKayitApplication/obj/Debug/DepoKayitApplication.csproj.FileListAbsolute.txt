@@ -1,0 +1,9 @@
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\bin\Debug\DepoKayitApplication.exe.config
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\bin\Debug\DepoKayitApplication.exe
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\bin\Debug\DepoKayitApplication.pdb
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.csprojResolveAssemblyReference.cache
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.Form1.resources
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.Properties.Resources.resources
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.csproj.GenerateResource.Cache
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.exe
+c:\users\temp\documents\visual studio 2015\Projects\DepoKayitApplicationSolition\DepoKayitApplication\obj\Debug\DepoKayitApplication.pdb
