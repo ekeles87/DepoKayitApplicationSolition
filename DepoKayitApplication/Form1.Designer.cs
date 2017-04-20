@@ -30,14 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cmbTablo = new System.Windows.Forms.ComboBox();
-            this.cmbDataBase = new System.Windows.Forms.ComboBox();
-            this.Baglanbtn = new System.Windows.Forms.Button();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -47,16 +39,24 @@
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.textboxsifre = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbDataBase = new System.Windows.Forms.ComboBox();
+            this.cmbtablo = new System.Windows.Forms.ComboBox();
+            this.Baglanbtn = new System.Windows.Forms.Button();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -71,8 +71,8 @@
             this.splitContainer1.Panel1.Controls.Add(this.toolStrip1);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
-            this.splitContainer1.Panel1.Controls.Add(this.cmbTablo);
             this.splitContainer1.Panel1.Controls.Add(this.cmbDataBase);
+            this.splitContainer1.Panel1.Controls.Add(this.cmbtablo);
             this.splitContainer1.Panel1.Controls.Add(this.Baglanbtn);
             // 
             // splitContainer1.Panel2
@@ -81,88 +81,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(797, 421);
             this.splitContainer1.SplitterDistance = 70;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(356, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Tablo";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(134, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "DataBase";
-            // 
-            // cmbTablo
-            // 
-            this.cmbTablo.FormattingEnabled = true;
-            this.cmbTablo.Location = new System.Drawing.Point(396, 33);
-            this.cmbTablo.Name = "cmbTablo";
-            this.cmbTablo.Size = new System.Drawing.Size(121, 21);
-            this.cmbTablo.TabIndex = 8;
-            // 
-            // cmbDataBase
-            // 
-            this.cmbDataBase.FormattingEnabled = true;
-            this.cmbDataBase.Location = new System.Drawing.Point(200, 33);
-            this.cmbDataBase.Name = "cmbDataBase";
-            this.cmbDataBase.Size = new System.Drawing.Size(121, 21);
-            this.cmbDataBase.TabIndex = 7;
-            // 
-            // Baglanbtn
-            // 
-            this.Baglanbtn.Location = new System.Drawing.Point(564, 31);
-            this.Baglanbtn.Name = "Baglanbtn";
-            this.Baglanbtn.Size = new System.Drawing.Size(75, 23);
-            this.Baglanbtn.TabIndex = 6;
-            this.Baglanbtn.Text = "Bağlan";
-            this.Baglanbtn.UseVisualStyleBackColor = true;
-            this.Baglanbtn.Click += new System.EventHandler(this.Baglanbtn_Click);
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.checkedListBox1);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer2.Size = new System.Drawing.Size(797, 347);
-            this.splitContainer2.SplitterDistance = 249;
-            this.splitContainer2.TabIndex = 0;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(249, 347);
-            this.checkedListBox1.TabIndex = 0;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 347);
-            this.dataGridView1.TabIndex = 0;
             // 
             // toolStrip1
             // 
@@ -228,6 +146,89 @@
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(289, 36);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Tablo";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "DataBase";
+            // 
+            // cmbDataBase
+            // 
+            this.cmbDataBase.FormattingEnabled = true;
+            this.cmbDataBase.Location = new System.Drawing.Point(103, 36);
+            this.cmbDataBase.Name = "cmbDataBase";
+            this.cmbDataBase.Size = new System.Drawing.Size(180, 21);
+            this.cmbDataBase.TabIndex = 8;
+            this.cmbDataBase.SelectedIndexChanged += new System.EventHandler(this.cmbDataBase_SelectedIndexChanged_1);
+            // 
+            // cmbtablo
+            // 
+            this.cmbtablo.FormattingEnabled = true;
+            this.cmbtablo.Location = new System.Drawing.Point(329, 36);
+            this.cmbtablo.Name = "cmbtablo";
+            this.cmbtablo.Size = new System.Drawing.Size(180, 21);
+            this.cmbtablo.TabIndex = 7;
+            // 
+            // Baglanbtn
+            // 
+            this.Baglanbtn.Location = new System.Drawing.Point(564, 31);
+            this.Baglanbtn.Name = "Baglanbtn";
+            this.Baglanbtn.Size = new System.Drawing.Size(75, 23);
+            this.Baglanbtn.TabIndex = 6;
+            this.Baglanbtn.Text = "Bağlan";
+            this.Baglanbtn.UseVisualStyleBackColor = true;
+            this.Baglanbtn.Click += new System.EventHandler(this.Baglanbtn_Click);
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.checkedListBox1);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.dataGridView1);
+            this.splitContainer2.Size = new System.Drawing.Size(797, 347);
+            this.splitContainer2.SplitterDistance = 249;
+            this.splitContainer2.TabIndex = 0;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(249, 347);
+            this.checkedListBox1.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(544, 347);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,13 +242,13 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -265,13 +266,13 @@
         private System.Windows.Forms.ToolStripTextBox textboxsifre;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbTablo;
         private System.Windows.Forms.ComboBox cmbDataBase;
         private System.Windows.Forms.Button Baglanbtn;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbtablo;
     }
 }
 
