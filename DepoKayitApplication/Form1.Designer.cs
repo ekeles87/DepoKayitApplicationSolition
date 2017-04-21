@@ -45,7 +45,7 @@
             this.cmbtablo = new System.Windows.Forms.ComboBox();
             this.Baglanbtn = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.chckdListBox = new System.Windows.Forms.CheckedListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -180,6 +180,7 @@
             this.cmbtablo.Name = "cmbtablo";
             this.cmbtablo.Size = new System.Drawing.Size(180, 21);
             this.cmbtablo.TabIndex = 7;
+            this.cmbtablo.SelectedIndexChanged += new System.EventHandler(this.cmbtablo_SelectedIndexChanged);
             // 
             // Baglanbtn
             // 
@@ -199,7 +200,7 @@
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.checkedListBox1);
+            this.splitContainer2.Panel1.Controls.Add(this.chckdListBox);
             // 
             // splitContainer2.Panel2
             // 
@@ -208,14 +209,14 @@
             this.splitContainer2.SplitterDistance = 249;
             this.splitContainer2.TabIndex = 0;
             // 
-            // checkedListBox1
+            // chckdListBox
             // 
-            this.checkedListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(249, 347);
-            this.checkedListBox1.TabIndex = 0;
+            this.chckdListBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chckdListBox.FormattingEnabled = true;
+            this.chckdListBox.Location = new System.Drawing.Point(0, 0);
+            this.chckdListBox.Name = "chckdListBox";
+            this.chckdListBox.Size = new System.Drawing.Size(249, 347);
+            this.chckdListBox.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -269,7 +270,7 @@
         private System.Windows.Forms.ComboBox cmbDataBase;
         private System.Windows.Forms.Button Baglanbtn;
         private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox chckdListBox;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbtablo;
