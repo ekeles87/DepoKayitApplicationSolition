@@ -46,7 +46,7 @@
             this.Baglanbtn = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.chckdListBox = new System.Windows.Forms.CheckedListBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvTablo = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -56,7 +56,7 @@
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTablo)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -204,7 +204,7 @@
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.dataGridView1);
+            this.splitContainer2.Panel2.Controls.Add(this.dgvTablo);
             this.splitContainer2.Size = new System.Drawing.Size(797, 347);
             this.splitContainer2.SplitterDistance = 249;
             this.splitContainer2.TabIndex = 0;
@@ -218,17 +218,17 @@
             this.chckdListBox.Size = new System.Drawing.Size(249, 347);
             this.chckdListBox.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvTablo
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 347);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvTablo.AllowUserToAddRows = false;
+            this.dgvTablo.AllowUserToDeleteRows = false;
+            this.dgvTablo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTablo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvTablo.Location = new System.Drawing.Point(0, 0);
+            this.dgvTablo.Name = "dgvTablo";
+            this.dgvTablo.ReadOnly = true;
+            this.dgvTablo.Size = new System.Drawing.Size(544, 347);
+            this.dgvTablo.TabIndex = 0;
             // 
             // Form1
             // 
@@ -249,7 +249,7 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTablo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -271,7 +271,7 @@
         private System.Windows.Forms.Button Baglanbtn;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.CheckedListBox chckdListBox;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvTablo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbtablo;
     }

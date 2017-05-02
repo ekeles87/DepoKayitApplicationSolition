@@ -119,7 +119,7 @@ namespace DepoKayitApplication
 
                 SqlConnection conn = new SqlConnection(connectionString);
                 SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = string.Format("select column_name from {0} .information_schema.columns where table_name = @TableName",dbname);
+                cmd.CommandText = string.Format("SELECT COLUMN_NAME FROM {0}.INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @TableName", dbname);
                 cmd.Parameters.AddWithValue("@TableName", tablead);
 
                 conn.Open();
@@ -134,6 +134,16 @@ namespace DepoKayitApplication
 
 
                 conn.Close();
+
+                cmd.CommandText = string.Format("select * from {0}",tablead);
+
+                cmd.Parameters.Clear();
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(dt);
+
+                dgvTablo.DataSource = dt;
+
 
             }
             catch (Exception ex)
