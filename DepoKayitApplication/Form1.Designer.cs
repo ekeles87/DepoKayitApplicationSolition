@@ -43,10 +43,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cmbDataBase = new System.Windows.Forms.ComboBox();
             this.cmbtablo = new System.Windows.Forms.ComboBox();
-            this.Baglanbtn = new System.Windows.Forms.Button();
+            this.secbtn = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.chckdListBox = new System.Windows.Forms.CheckedListBox();
             this.dgvTablo = new System.Windows.Forms.DataGridView();
+            this.Bağlan = new System.Windows.Forms.ToolStripLabel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -73,7 +74,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.cmbDataBase);
             this.splitContainer1.Panel1.Controls.Add(this.cmbtablo);
-            this.splitContainer1.Panel1.Controls.Add(this.Baglanbtn);
+            this.splitContainer1.Panel1.Controls.Add(this.secbtn);
             // 
             // splitContainer1.Panel2
             // 
@@ -92,7 +93,8 @@
             this.textboxkulAdı,
             this.toolStripLabel3,
             this.textboxsifre,
-            this.toolStripButton1});
+            this.toolStripButton1,
+            this.Bağlan});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(797, 25);
@@ -145,6 +147,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // label2
             // 
@@ -182,15 +185,15 @@
             this.cmbtablo.TabIndex = 7;
             this.cmbtablo.SelectedIndexChanged += new System.EventHandler(this.cmbtablo_SelectedIndexChanged);
             // 
-            // Baglanbtn
+            // secbtn
             // 
-            this.Baglanbtn.Location = new System.Drawing.Point(564, 31);
-            this.Baglanbtn.Name = "Baglanbtn";
-            this.Baglanbtn.Size = new System.Drawing.Size(75, 23);
-            this.Baglanbtn.TabIndex = 6;
-            this.Baglanbtn.Text = "Bağlan";
-            this.Baglanbtn.UseVisualStyleBackColor = true;
-            this.Baglanbtn.Click += new System.EventHandler(this.Baglanbtn_Click);
+            this.secbtn.Location = new System.Drawing.Point(564, 31);
+            this.secbtn.Name = "secbtn";
+            this.secbtn.Size = new System.Drawing.Size(75, 23);
+            this.secbtn.TabIndex = 6;
+            this.secbtn.Text = "Göster";
+            this.secbtn.UseVisualStyleBackColor = true;
+            this.secbtn.Click += new System.EventHandler(this.secbtn_Click);
             // 
             // splitContainer2
             // 
@@ -217,6 +220,7 @@
             this.chckdListBox.Name = "chckdListBox";
             this.chckdListBox.Size = new System.Drawing.Size(249, 347);
             this.chckdListBox.TabIndex = 0;
+            this.chckdListBox.SelectedIndexChanged += new System.EventHandler(this.chckdListBox_SelectedIndexChanged);
             // 
             // dgvTablo
             // 
@@ -229,6 +233,12 @@
             this.dgvTablo.ReadOnly = true;
             this.dgvTablo.Size = new System.Drawing.Size(544, 347);
             this.dgvTablo.TabIndex = 0;
+            // 
+            // Bağlan
+            // 
+            this.Bağlan.Name = "Bağlan";
+            this.Bağlan.Size = new System.Drawing.Size(43, 22);
+            this.Bağlan.Text = "Bağlan";
             // 
             // Form1
             // 
@@ -268,12 +278,13 @@
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmbDataBase;
-        private System.Windows.Forms.Button Baglanbtn;
+        private System.Windows.Forms.Button secbtn;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.CheckedListBox chckdListBox;
         private System.Windows.Forms.DataGridView dgvTablo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbtablo;
+        private System.Windows.Forms.ToolStripLabel Bağlan;
     }
 }
 
